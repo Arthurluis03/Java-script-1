@@ -1,0 +1,76 @@
+<!Doctype html>
+<html lang="pt-br"></html>
+
+<head> 
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, incial-scale1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+</html> 
+<body>
+  
+    <h1>Exemplo de JavaScript Basico plus atualizado 2025 sem virus mediafire</h1>
+
+<script> 
+ let n1 = Number(prompt("Escreva o numero para as equações:  "));
+ let vetor=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+ let i=0
+ 
+function resultado1()
+   { 
+for (i = 0; i < 10; i++) 
+  {
+    const element = vetor[10];
+    
+
+let resultado = n1*vetor[i]
+console.log("resultado");
+ document.write("<p>" + n1 + " * " + vetor[i] + " = " + resultado + "</p>");
+   }
+   }
+   function resultado2(){
+    for (i = 0; i < 10; i++) 
+  {
+    const element = vetor[10];
+    
+ 
+let resultado = n1+vetor[i]
+console.log("resultado");
+ document.write("<p>" + n1 + " + " + vetor[i] + " = " + resultado + "</p>");
+   }
+   }
+   function resultado3() {
+
+   
+   for (i = 0; i < 10; i++) 
+  {
+    const element = vetor[10];
+    
+
+let resultado = n1/vetor[i]
+console.log("resultado");
+ document.write("<p>" + n1 + " / " + vetor[i] + " = " + resultado + "</p>");
+   }
+   }
+   function resultado4() {
+   for (i = 0; i < 10; i++) 
+  {
+    const element = vetor[10];
+    
+
+let resultado = n1-vetor[i]
+console.log("resultado");
+ document.write("<p>" + n1 + " - " + vetor[i] + " = " + resultado + "</p>");
+   }
+}
+</script>
+<button onclick="resultado2()"> somar(+) </button>
+<button onclick="resultado4()"> subtrair(-) </button>
+<button onclick="resultado1()"> multiplicar(*) </button>
+<button onclick="resultado3()"> dividir(/) </button>
+
+</body>
+</html>
