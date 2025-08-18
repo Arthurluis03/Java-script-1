@@ -1,0 +1,31 @@
+<!Doctype html>
+<html lang="pt-br"></html>
+
+<head> 
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, incial-scale1.0">
+    <title>Document</title>
+    <script> src=""    </script>
+</head>
+<body>
+</body>
+</html> 
+<body>
+  
+    <h1>Exemplo de JavaScript Basico plus atualizado 2025 sem virus mediafire</h1>
+
+<script> 
+ let n1 = Number(prompt("Escreva o primeiro numero:  "));
+let n2 = Number(prompt("Escreva a segundo numero:  "));
+let n3 = Number(prompt("Escreva a terceiro numero:  "));
+function resultado()
+   { 
+
+let resultado= n1+n2+n3
+console.log("resultado");
+ document.write("<p>O resultado da somas dos numeros é:  " + resultado + "</p>");
+   }
+</script>
+
+<button onclick="resultado()">Clique aqui </button>
