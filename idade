@@ -1,0 +1,31 @@
+<!Doctype html>
+<html lang="pt-br"></html>
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, incial-scale1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+</html> 
+<body>
+  
+    <h1>Exemplo de JavaScript Basico plus</h1>
+
+<script>  alert("Bem-vindo ao site!:  ");
+
+
+let idade = prompt("Qual é a sua idade?");
+
+if (idade<18) 
+ {
+    document.write("<p>Voce é menor de idade.</p>");
+ }
+ else 
+{
+    document.write("<p>Voce é maior de idade. </p>");
+}
+
+</script>
+</body>
+</html>
