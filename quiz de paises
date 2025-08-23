@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       <link rel="stylesheet" href="layout.css">
+        <h1> Quiz de Capitais </h1>
+       <script> 
+
+       let player1 = prompt("Digite o nome do Player 1:");
+       alert("Bem-vindo, " + player1 + "! Vamos começar o quiz.");
+     let perguntas = prompt("pergunta: Qual a capital da França?");
+     let contadorplayer1 = 0;
+     let contadorplayer2 = 0;
+     let contadorplayer3 = 0;  
+     let contadorplayer4 = 0;
+     
+     
+     if (perguntas == "Paris" || perguntas == "paris")
+         {
+            alert("Resposta correta! +1 ponto"); contadorplayer1++;
+            alert("Você tem " + contadorplayer1 + " pontos");}
+            else 
+                {
+                     alert("Resposta incorreta! A capital da França é Paris.");
+                }
+            let perguntas2 = prompt("pergunta: Qual a capital da Espanha?");
+         
+          if (perguntas2 == "Madrid")
+            {
+                alert("Resposta correta! +1 ponto"); contadorplayer1++;
+                alert("Você tem " + contadorplayer1 + " pontos");
+          }
+            else 
+            {
+                alert("Resposta incorreta! A capital da Espanha é Madrid.");
+          }
+           let  perguntas3 = prompt("pergunta: Qual a capital da Itália?");
+                if (perguntas3 == "Roma") 
+                  {
+                      alert("Resposta correta! +1 ponto"); contadorplayer1++;
+                     alert("Você tem " + contadorplayer1 + " pontos");
+                }
+                  else 
+                  {
+                      alert("Resposta incorreta! A capital da Itália é Roma.");
+                }
+                let perguntas4 = prompt("pergunta: Qual a capital da Alemanha?");
+                    if (perguntas4 == "Berlim")
+                      {
+                            alert("Resposta correta! +1 ponto"); contadorplayer1++;
+                            alert("Você tem " + contadorplayer1 + " pontos");
+                    }
+                      else 
+                      {
+                            alert("Resposta incorreta! A capital da Alemanha é Berlim.");
+                    }
+           player2 = prompt("Digite o nome do Player 2:");
+           alert("Bem-vindo, " + player2 + "! Vamos começar o quiz.");
+              let perguntas5 = prompt("pergunta: Qual a capital do Brasil?");
+                if (perguntas5 == "Brasilia")
+                  {
+                      alert("Resposta correta! +1 ponto"); contadorplayer2++;
+                      alert("Você tem " + contadorplayer2 + " pontos");
+                }
+                  else 
+                  {
+                      alert("Resposta incorreta! A capital do Brasil é Brasília.");
+                }
+                let perguntas6 = prompt("pergunta: Qual a capital da Argentina?");
+                  if (perguntas6 == "Buenos aires" || perguntas6 == "Buenos Aires")
+                    {
+                        alert("Resposta correta! +1 ponto"); contadorplayer2++;
+                        alert("Você tem " + contadorplayer2 + " pontos");
+                  }
+                    else 
+                    {
+                        alert("Resposta incorreta! A capital da Argentina é Buenos Aires.");
+                  }
+                  let perguntas7 = prompt("pergunta: Qual a capital do Chile?");
+                    if (perguntas7 == "Santiago")
+                      {
+                          alert("Resposta correta! +1 ponto"); contadorplayer2++;
+                          alert("Você tem " + contadorplayer2 + " pontos");
+                    }
+                      else 
+                      {
+                          alert("Resposta incorreta! A capital do Chile é Santiago.");
+                    }
+                    let perguntas8 = prompt("pergunta: Qual a capital do Peru?");
+                      if (perguntas8 == "Lima")
+                        {
+                            alert("Resposta correta! +1 ponto"); contadorplayer2++;
+                            alert("Você tem " + contadorplayer2 + " pontos");
+                      }
+                        else 
+                        {
+                            alert("Resposta incorreta! A capital do Peru é Lima.");
+                      }
+         player3 = prompt("Digite o nome do Player 3:"); 
+            alert("Bem-vindo, " + player3 + "! Vamos começar o quiz.");
+            let perguntas9 = prompt("pergunta: Qual a capital do Japão?");
+                if (perguntas9 == "Tóquio")
+                {
+                    alert("Resposta correta! +1 ponto"); contadorplayer3++;
+                    alert("Você tem " + contadorplayer3 + " pontos");
+                }
+                else 
+                {
+                    alert("Resposta incorreta! A capital do Japão é Tóquio.");
+                }
+                let perguntas10 = prompt("pergunta: Qual a capital da China?");
+                if (perguntas10 == "Pequim")
+                    {
+                        alert("Resposta correta! +1 ponto"); contadorplayer3++;
+                        alert("Você tem " + contadorplayer3 + " pontos");
+                }
+                    else 
+                    {
+                        alert("Resposta incorreta! A capital da China é Pequim.");
+                }
+                let perguntas11 = prompt("pergunta: Qual a capital da Índia?");
+                    if (perguntas11 == "Nova Délhi")
+                    {
+                        alert("Resposta correta! +1 ponto"); contadorplayer3++;
+                        alert("Você tem " + contadorplayer3 + " pontos");
+                    }
+                    else 
+                    {
+                        alert("Resposta incorreta! A capital da Índia é Nova Délhi.");
+                    }
+                    let perguntas12 = prompt("pergunta: Qual a capital da Rússia?");
+                    if (perguntas12 == "Moscou")
+                        {
+                            alert("Resposta correta! +1 ponto"); contadorplayer3++;
+                            alert("Você tem " + contadorplayer3 + " pontos");
+                    }
+                        else 
+                        {
+                            alert("Resposta incorreta! A capital da Rússia é Moscou.");
+                    }
+        player4 = prompt("Digite o nome do Player 4:");
+            alert("Bem-vindo, " + player4 + "! Vamos começar o quiz.");
+            let perguntas13 = prompt("pergunta: Qual a capital do Canadá?");
+                if (perguntas13 == "Ottawa")
+                {
+                    alert("Resposta correta! +1 ponto"); contadorplayer4++;
+                    alert("Você tem " + contadorplayer4 + " pontos");
+                }
+                else 
+                {
+                    alert("Resposta incorreta! A capital do Canadá é Ottawa.");
+                }
+                let perguntas14 = prompt("pergunta: Qual a capital dos Estados Unidos?");
+                    if (perguntas14 == "Washington, D.C.")
+                    {
+                        alert("Resposta correta! +1 ponto"); contadorplayer4++;
+                        alert("Você tem " + contadorplayer4 + " pontos");
+                    }
+                    else 
+                    {
+                        alert("Resposta incorreta! A capital dos Estados Unidos é Washington, D.C.");
+                    }
+                    let perguntas15 = prompt("pergunta: Qual a capital do México?");
+                        if (perguntas15 == "Cidade do México")
+                        {
+                            alert("Resposta correta! +1 ponto"); contadorplayer4++;
+                            alert("Você tem " + contadorplayer4 + " pontos");
+                        }
+                        else 
+                        {
+                            alert("Resposta incorreta! A capital do México é Cidade do México.");
+                        }
+                        let perguntas16 = prompt("pergunta: Qual a capital de Cuba?");
+                            if (perguntas16 == "Havana")
+                            {
+                                alert("Resposta correta! +1 ponto"); contadorplayer4++;
+                                alert("Você tem " + contadorplayer4 + " pontos");
+                            }
+                            else 
+                            {
+                                alert("Resposta incorreta! A capital de Cuba é Havana.");
+                            }
+         
+        
+
+        if (contadorplayer1 > contadorplayer2 && contadorplayer1 > contadorplayer3 && contadorplayer1 > contadorplayer4) {
+            document.write("O vencedor é " + player1 + " com " + contadorplayer1 + " pontos!");
+        } else if (contadorplayer2 > contadorplayer1 && contadorplayer2 > contadorplayer3 && contadorplayer2 > contadorplayer4) {
+            document.write("O vencedor é " + player2 + " com " + contadorplayer2 + " pontos!");
+        } else if (contadorplayer3 > contadorplayer1 && contadorplayer3 > contadorplayer2 && contadorplayer3 > contadorplayer4) {
+            document.write("O vencedor é " + player3 + " com " + contadorplayer3 + " pontos!");
+        } else if (contadorplayer4 > contadorplayer1 && contadorplayer4 > contadorplayer2 && contadorplayer4 > contadorplayer3) {
+            document.write("O vencedor é " + player4 + " com " + contadorplayer4 + " pontos!");
+            
+        } else {
+            document.write("Houve um empate entre os jogadores.");
+        }
+        document.write("<br><br>Placar Final:<br>");
+        if (contadorplayer1 > contadorplayer2 && contadorplayer1 > contadorplayer3 && contadorplayer1 > contadorplayer4) {
+            document.write(player1 + ": " + contadorplayer1 + " pontos<br>");
+            document.write(player2 + ": " + contadorplayer2 + " pontos<br>");
+            document.write(player3 + ": " + contadorplayer3 + " pontos<br>");
+            document.write(player4 + ": " + contadorplayer4 + " pontos<br>");
+        } else if (contadorplayer2 > contadorplayer1 && contadorplayer2 > contadorplayer3 && contadorplayer2 > contadorplayer4) {
+            document.write(player2 + ": " + contadorplayer2 + " pontos<br>");
+            document.write(player1 + ": " + contadorplayer1 + " pontos<br>");
+            document.write(player3 + ": " + contadorplayer3 + " pontos<br>");
+            document.write(player4 + ": " + contadorplayer4 + " pontos<br>");
+        } else if (contadorplayer3 > contadorplayer1 && contadorplayer3 > contadorplayer2 && contadorplayer3 > contadorplayer4) {
+            document.write(player3 + ": " + contadorplayer3 + " pontos<br>");
+            document.write(player1 + ": " + contadorplayer1 + " pontos<br>");
+            document.write(player2 + ": " + contadorplayer2 + " pontos<br>");
+            document.write(player4 + ": " + contadorplayer4 + " pontos<br>");
+        } else if (contadorplayer4 > contadorplayer1 && contadorplayer4 > contadorplayer2 && contadorplayer4 > contadorplayer3) {
+            document.write(player4 + ": " + contadorplayer4 + " pontos<br>");
+            document.write(player1 + ": " + contadorplayer1 + " pontos<br>");
+            document.write(player2 + ": " + contadorplayer2 + " pontos<br>");
+            document.write(player3 + ": " + contadorplayer3 + " pontos<br>");
+        } else {
+            document.write(player1 + ": " + contadorplayer1 + " pontos<br>");
+            document.write(player2 + ": " + contadorplayer2 + " pontos<br>");
+            document.write(player3 + ": " + contadorplayer3 + " pontos<br>");
+            document.write(player4 + ": " + contadorplayer4 + " pontos<br>");
+        }
+       </script>
+    
+    
+</body>
+</html>
