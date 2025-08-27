@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Navegador</title>
+  
+</head>
+<body>
+
+  <h2> Teste Navegador</h2>
+
+  <input type="text" id="paginaInput" placeholder="Digite o nome da página">
+  <button onclick="visitarPagina()">Visitar Página</button>
+  <button onclick="voltarPagina()">Voltar</button>
+
+  <div id="atual">
+    <h3>Página Atual:</h3>
+    <p id="paginaAtual">Nenhuma página acessada</p>
+  </div>
+
+  <div id="historico">
+    <h3>Histórico de Navegação:</h3>
+    <ul id="pilhaHistorico">
+      
+    </ul>
+  </div>
+
+  <script>
+    let pilha = [];
+
+    function atualizarExibicao() {
+      const paginaAtual = document.getElementById("paginaAtual");
+      const listaHistorico = document.getElementById("pilhaHistorico");
+
+      if (pilha.length === 0) {
+        paginaAtual.textContent = "Nenhuma página acessada";
+      } else {
+        paginaAtual.textContent = pilha[pilha.length - 1];
+      }
+
+      listaHistorico.innerHTML = "";
+      pilha.forEach((pagina, index) => {
+        const item = document.createElement("li");
+        item.textContent = pagina;
+        listaHistorico.appendChild(item);
+      });
+    }
+
+    function visitarPagina() {
+      const input = document.getElementById("paginaInput");
+      const novaPagina = input.value.trim();
+
+      if (novaPagina !== "") {
+        pilha.push(novaPagina);
+        input.value = "";
+        atualizarExibicao();
+      } else {
+        alert("Digite o nome da página: ");
+      }
+    }
+
+    function voltarPagina() {
+      if (pilha.length === 0) {
+        alert(" Não tem páginas para voltar.");
+      } else {
+        pilha.pop();
+        atualizarExibicao();
+      }
+    }
+
+    atualizarExibicao(); // Inicializa exibição
+  </script>
+
+</body>
+</html>
